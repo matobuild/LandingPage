@@ -43,7 +43,7 @@ a {
 .content3,
 .content4 {
     display: flex;
-    padding: 10px 100px;
+    padding: 50px 100px;
     align-items: center;
    
 }
@@ -59,12 +59,36 @@ justify-content: space-between;
 }
 
 .left-side {
-    width: 50%
+    width: 70%
+}
+
+.hero-img {
+    max-width: 100%;
+    
 }
 
 .content2 {
+flex-direction: column;
+font-size: 36px;
+font-weight: 800;
+color: #1f2937;
+gap: 30px;
+}
+
+.infos {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 20px;
+}
+
+.small-img {
+    width: 100%;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
 
 }
+
 
 .content3 {
     display: flex;
@@ -73,9 +97,28 @@ justify-content: space-between;
 background-color: #e5e7eb;
 }
 
+.quote-name {
+    display: flex;
+width: 100%;
+justify-content: flex-end;
+font-size: 20px;
+font-weight: bold;
+}
+
 .content4 {
+color: white;
+font-size: 26px;
+font-weight: bold;
+}
 
-
+.container4 {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px; 
+    padding: 20px;
+    
 }
 
 button {
